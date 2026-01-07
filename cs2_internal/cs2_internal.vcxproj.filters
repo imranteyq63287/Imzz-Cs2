@@ -1,0 +1,1593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies\imgui\imconfig.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_freetype.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_dx11.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_win32.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_internal.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_stdlib.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_rectpack.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_textedit.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_truetype.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\conversions\from_json.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\conversions\to_chars.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\conversions\to_json.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\input\binary_reader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\input\input_adapters.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\input\json_sax.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\input\lexer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\input\parser.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\input\position_t.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\iterators\internal_iterator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\iterators\iter_impl.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\iterators\iteration_proxy.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\iterators\iterator_traits.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\iterators\json_reverse_iterator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\iterators\primitive_iterator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\meta\call_std\begin.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\meta\call_std\end.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\meta\cpp_future.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\meta\detected.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\meta\identity_tag.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\meta\is_sax.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\meta\std_fs.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\meta\type_traits.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\meta\void_t.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\output\binary_writer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\output\output_adapters.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\output\serializer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\abi_macros.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\exceptions.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\hash.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\json_custom_base_class.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\json_pointer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\json_ref.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\macro_scope.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\macro_unscope.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\string_concat.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\string_escape.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\detail\value_t.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\thirdparty\hedley\hedley.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\thirdparty\hedley\hedley_undef.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\adl_serializer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\byte_container_with_subtype.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\json.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\json_fwd.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\json\ordered_map.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\hde\hde32.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\hde\hde64.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\hde\pstdint.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\hde\table32.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\hde\table64.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\buffer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\MinHook.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\minhook\trampoline.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\fnv1a.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\hash.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\random.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\tinyformat.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\xor.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\cpp\cpp_generator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\cpp\file.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\cpp\generator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\cpp\helpers.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\cpp\names.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\csharp\csharp_doc_comment.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\csharp\csharp_generator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\csharp\csharp_names.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\csharp\csharp_options.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\java\generator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\java\java_generator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\java\kotlin_generator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\java\names.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\objectivec\objectivec_generator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\objectivec\objectivec_helpers.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\php\php_generator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\python\generator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\python\pyi_generator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\python\python_generator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\ruby\ruby_generator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\code_generator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\command_line_interface.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\importer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\parser.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\plugin.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\compiler\plugin.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\io\coded_stream.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\io\gzip_stream.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\io\io_win32.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\io\printer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\io\strtod.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\io\tokenizer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\io\zero_copy_stream.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\io\zero_copy_stream_impl.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\io\zero_copy_stream_impl_lite.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\bytestream.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\callback.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\casts.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\common.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\hash.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\logging.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\macros.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\map_util.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\mutex.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\once.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\platform_macros.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\port.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\status.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\stl_util.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\stringpiece.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\strutil.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\stubs\template_util.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\util\delimited_message_util.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\util\field_comparator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\util\field_mask_util.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\util\json_util.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\util\message_differencer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\util\time_util.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\util\type_resolver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\util\type_resolver_util.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\any.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\any.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\api.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\arena.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\arena_impl.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\arenastring.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\arenaz_sampler.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\descriptor.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\descriptor.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\descriptor_database.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\duration.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\dynamic_message.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\empty.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\endian.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\explicitly_constructed.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\extension_set.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\extension_set_inl.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\field_access_listener.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\field_mask.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\generated_enum_reflection.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\generated_enum_util.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\generated_message_bases.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\generated_message_reflection.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\generated_message_tctable_decl.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\generated_message_tctable_impl.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\generated_message_util.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\has_bits.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\implicit_weak_message.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\inlined_string_field.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\map.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\map_entry.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\map_entry_lite.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\map_field.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\map_field_inl.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\map_field_lite.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\map_type_handler.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\message.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\message_lite.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\metadata.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\metadata_lite.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\parse_context.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\port.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\reflection.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\reflection_ops.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\repeated_field.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\repeated_ptr_field.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\service.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\source_context.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\struct.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\text_format.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\timestamp.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\type.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\unknown_field_set.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\wire_format.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\wire_format_lite.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protobufs\include\google\protobuf\wrappers.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\config_system.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\interfaces.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\vector.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\matrix_t.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\utils.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\math.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\typedefs\c_color.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\typedefs\c_handle.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\typedefs\c_strong_handle.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\typedefs\c_utl_map.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\typedefs\c_utl_memory.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\virual.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\vtables\c_mem_alloc.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\vtables\c_convar.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\vtables\c_localize.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\vtables\c_global_vars.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\vtables\c_schema_system.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\vtables\c_engine_client.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\schema\schema.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\typedefs\c_utl_vector.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\vtables\c_client.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\vtables\c_entity_system.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\entity\entity.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="context.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\vtables\c_csgo_input.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\base_gcmessages.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\c_peer2peer_netmessages.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\clientmessages.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\connectionless_netmessages.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\cs_gameevents.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\cs_usercmd.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\cstrike15_gcmessages.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\cstrike15_usermessages.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\demo.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\econ_gcmessages.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\engine_gcmessages.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\enums_clientserver.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\fatdemo.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\gameevents.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\gcsdk_gcmessages.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\gcsystemmsgs.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\netmessages.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\network_connection.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\networkbasetypes.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\networksystem_protomessages.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\steamdatagram_messages_auth.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\steamdatagram_messages_sdr.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\steammessages.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\steammessages_cloud.steamworkssdk.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\steammessages_gamenetworkingui.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\steammessages_helprequest.steamworkssdk.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\steammessages_oauth.steamworkssdk.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\steammessages_player.steamworkssdk.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\steammessages_publishedfile.steamworkssdk.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\steammessages_unified_base.steamworkssdk.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\steamnetworkingsockets_messages.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\steamnetworkingsockets_messages_certs.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\steamnetworkingsockets_messages_udp.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\te.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\uifontfile_format.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\usercmd.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\usermessages.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\protos\valveextensions.pb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\vtables\c_engine_trace.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\modules\modules.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\hooks\hooks.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\hooks\directx.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\render\render.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\bytes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\menu\menu.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_baseentity.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_base_player_pawn.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_base_player_weapon.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_cs_player_controller.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_cs_player_pawn.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_cs_player_pawn_base.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_cs_weapon_base_vdata.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_econ_entity.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_entity_indentity.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_entity_instance.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_game_scene_node.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_model.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_player_movement_services.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_scene_light.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_view_setup.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals\main\overlay.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals\other\weapon.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Misc\Movement\movement.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\menu\gui_base\bytes.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\menu\gui_base\checkbox.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\menu\gui_base\color_t.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\menu\gui_base\gui.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\menu\gui_base\hashes.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\menu\gui_base\slider.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\menu\gui_base\Source.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\menu\gui_base\ui.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals\other\bone.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Aimbot\Rage\ragebot.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Aimbot\Rage\antiaim.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Aimbot\Rage\helpers.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Aimbot\Rage\helpers.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Aimbot\Rage\ragehelper.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\menu\gui_base\multicombo.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\skins\skins.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Aimbot\Legit\legit.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\engine prediction\eprediction.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\menu\gui_base\notification.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Misc\other\other.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\i_network_game_client.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\modules\c_modules.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\c_utils.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\i_particle_system.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\i_event_manager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\i_res_manager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\buffer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals\other\bullet.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals\other\event.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_murmarhash.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_event.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_particle.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Aimbot\Rage\Wall Penetrate\auto_wall.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals\main\chams.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_stronghandle.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_agregatescene.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_materialsystem.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals\main\helperchams.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\auth.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_cs_player_controller_action_tracking_services.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\cs_match_stats.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_base_model_entity.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_cs_player_buy_services.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_cs_player_hostage_services.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_cs_gamerules.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_point_camera.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\c_point_client_ui_hud.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\sellback_purchase_entry.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Misc\WalkBot\walkbot.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\menu\skins_dumped.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Bind System\key.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\memory.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\menu\gui_base\shader.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals\main\custom_sky.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals\main\weather.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\hooks\log.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx11tex.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx11.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d2d1.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d2d1_1.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d2d1_1helper.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d2d1_2.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d2d1_2helper.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d2d1_3.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d2d1_3helper.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d2d1effectauthor.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d2d1effectauthor_1.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d2d1effecthelpers.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d2d1effects.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d2d1effects_1.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d2d1helper.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d2dbasetypes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d2derr.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d8.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d8caps.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d8types.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d9.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d9caps.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d9types.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d10.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d10_1.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d10_1shader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d10effect.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d10misc.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d10sdklayers.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d10shader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d11.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d11_1.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d11_2.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d11_3.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d11_4.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d11sdklayers.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d11shader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d11shadertracing.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d12.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d12sdklayers.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d12shader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3d12video.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dcaps.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dcommon.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dcompiler.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dcsx.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dtypes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx9.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx9anim.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx9core.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx9effect.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx9math.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx9mesh.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx9shader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx9shape.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx9tex.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx9xof.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx10.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx10async.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx10core.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx10math.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx10mesh.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx10tex.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx11async.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\d3dx11core.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dcommon.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dcomp.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dcompanimation.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dcomptypes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\ddraw.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dwrite.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dwrite_1.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dwrite_2.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dwrite_3.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dxgi.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dxgi1_2.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dxgi1_3.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dxgi1_4.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dxgi1_5.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dxgi1_6.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dxgicommon.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dxgidebug.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dxgiformat.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dxgitype.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\d3dx11\dxva2api.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Inventory\InventoryChanger.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Inventory\InventoryItem.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Inventory\InventoryManager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_demo.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_draw.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_freetype.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_dx11.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_win32.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_stdlib.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_tables.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_widgets.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\minhook\hde\hde32.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\minhook\hde\hde64.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\minhook\buffer.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\minhook\hook.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\minhook\trampoline.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\interfaces.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\utils\utils.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\vtables\c_convar.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\utils\schema\schema.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\entity\entity.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\vtables\c_csgo_input.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\base_gcmessages.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\c_peer2peer_netmessages.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\clientmessages.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\connectionless_netmessages.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\cs_gameevents.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\cs_usercmd.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\cstrike15_gcmessages.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\cstrike15_usermessages.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\demo.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\econ_gcmessages.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\engine_gcmessages.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\enums_clientserver.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\fatdemo.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\gameevents.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\gcsdk_gcmessages.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\gcsystemmsgs.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\netmessages.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\network_connection.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\networkbasetypes.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\networksystem_protomessages.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\steamdatagram_messages_auth.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\steamdatagram_messages_sdr.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\steammessages.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\steammessages_cloud.steamworkssdk.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\steammessages_gamenetworkingui.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\steammessages_helprequest.steamworkssdk.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\steammessages_oauth.steamworkssdk.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\steammessages_player.steamworkssdk.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\steammessages_publishedfile.steamworkssdk.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\steammessages_unified_base.steamworkssdk.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\steamnetworkingsockets_messages.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\steamnetworkingsockets_messages_certs.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\steamnetworkingsockets_messages_udp.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\te.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\uifontfile_format.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\usercmd.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\usermessages.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\protos\valveextensions.pb.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\vtables\c_engine_trace.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\modules\modules.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\hooks\hooks.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\hooks\directx.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\utils\render\render.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\menu\menu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\menu\menu_elements\tabs.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\menu\menu_elements\multi_combo.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\config_system.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\main\overlay.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Misc\Movement\movement.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\menu\gui_base\font.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\menu\gui_base\gui.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Aimbot\Rage\ragebot.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Aimbot\Rage\antiaim.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\skins\skins.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Aimbot\Legit\legit.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\engine prediction\eprediction.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\menu\gui_base\notification.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Misc\other\other.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\utils\c_utils.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\other\bullet.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\other\event.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Aimbot\Rage\Wall Penetrate\auto_wall.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\main\chams.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\main\helperchams.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\auth.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Misc\WalkBot\walkbot.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\classes\i_event_manager.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\classes\i_particle_system.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Bind System\key.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\utils\memory.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\menu\gui_base\shader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\main\custom_sky.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\main\weather.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\classes\weapon.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Inventory\InventoryChanger.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Inventory\InventoryItem.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Inventory\InventoryManager.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\hooks\FrameStageNotify.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dependencies\protobufs\include\google\protobuf\port_def.inc">
+      <Filter>Файлы заголовков</Filter>
+    </None>
+    <None Include="dependencies\protobufs\include\google\protobuf\port_undef.inc">
+      <Filter>Файлы заголовков</Filter>
+    </None>
+    <None Include="packages.config" />
+    <None Include="dependencies\d3dx11\d3dvec.inl">
+      <Filter>Файлы заголовков</Filter>
+    </None>
+    <None Include="dependencies\d3dx11\d3dx_dxgiformatconvert.inl">
+      <Filter>Файлы заголовков</Filter>
+    </None>
+    <None Include="dependencies\d3dx11\d3dx9math.inl">
+      <Filter>Файлы заголовков</Filter>
+    </None>
+    <None Include="dependencies\d3dx11\d3dx10math.inl">
+      <Filter>Файлы заголовков</Filter>
+    </None>
+  </ItemGroup>
+</Project>
